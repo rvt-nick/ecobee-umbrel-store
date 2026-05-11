@@ -43,12 +43,12 @@ releaseNotes: >-
   v0.2.0 — first Umbrel release. Includes in-app setup flow so credentials
   can be configured without editing environment variables.
 
-developer: rvt-nick
+developer: RVT
 website: https://github.com/rvt-nick/ecobee-dashboard
 dependencies: []
 repo: https://github.com/rvt-nick/ecobee-dashboard
 support: https://github.com/rvt-nick/ecobee-dashboard/issues
-submitter: rvt-nick
+submitter: RVT
 submission: https://github.com/rvt-nick/ecobee-umbrel-store
 gallery:
   - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/rvt-nick-ecobee-dashboard/icon.svg

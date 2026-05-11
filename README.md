@@ -1,6 +1,6 @@
-# Nick's Umbrel Community App Store
+# RVT Umbrel Community App Store
 
-Personal Umbrel community store with apps I maintain.
+Community store with apps maintained by RVT.
 
 ## Apps
 
@@ -18,7 +18,7 @@ In Umbrel: **Settings → App Stores → Add Store** and paste this repo's URL:
 https://github.com/rvt-nick/ecobee-umbrel-store
 ```
 
-The apps appear under the **App Store** with the `rvt-nick-` prefix.
+The apps appear under the **App Store** in a section titled "RVT".
 
 On first open, the dashboard's `/setup` page asks for your Ecobee
 SmartBuildings API credentials (different from the SB portal login —
