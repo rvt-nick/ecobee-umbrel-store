@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: ecobee-dashboard_web_1
+      APP_HOST: rvt-nick-ecobee-dashboard_web_1
       APP_PORT: 3000
 
   web:

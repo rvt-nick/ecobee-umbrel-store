@@ -1,8 +1,8 @@
 manifestVersion: 1
-id: ecobee-dashboard
+id: rvt-nick-ecobee-dashboard
 name: Ecobee Dashboard
 tagline: Live status, runtime history, and cost estimation for Ecobee SmartBuildings
-icon: https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
+icon: https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/rvt-nick-ecobee-dashboard/icon.svg
 category: Utilities
 version: "0.2.0"
 port: 3000
@@ -51,9 +51,9 @@ support: https://github.com/rvt-nick/ecobee-dashboard/issues
 submitter: rvt-nick
 submission: https://github.com/rvt-nick/ecobee-umbrel-store
 gallery:
-  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
-  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
-  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
+  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/rvt-nick-ecobee-dashboard/icon.svg
+  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/rvt-nick-ecobee-dashboard/icon.svg
+  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/rvt-nick-ecobee-dashboard/icon.svg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
