@@ -1,9 +1,11 @@
 manifestVersion: 1
 id: ecobee-dashboard
-category: utilities
 name: Ecobee Dashboard
-version: "0.2.0"
 tagline: Live status, runtime history, and cost estimation for Ecobee SmartBuildings
+icon: https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
+category: Utilities
+version: "0.2.0"
+port: 3000
 description: >-
   An internal dashboard for managers of Ecobee SmartBuildings fleets.
 
@@ -16,44 +18,42 @@ description: >-
   - 5-minute polling historian that records runtime locally so you have
     your own time-series — Ecobee's SB API does not expose runtime history.
 
-  - Daily fleet runtime chart with stacked heat / cool / fan hours, going
-    back as far as you've collected data.
+  - Daily fleet runtime chart with stacked heat / cool / fan hours.
 
   - Period cards for Today / This week / This month / YTD with a
     year-over-year comparison once a full year of data is collected.
 
-  - Estimated electricity cost per period based on a user-configurable
+  - Estimated electricity cost per period based on a configurable
     $/kWh rate and per-component equipment wattages.
 
   - Animated weather widget pulled from the thermostats' own weather
-    feed, with sunny / partly cloudy / rain / snow / thunder / fog states.
+    feed (sunny, partly cloudy, rain, snow, thunder, fog).
 
-  - Animated equipment indicators (spinning fan blades, flickering flame,
-    rotating snowflake, pulsing aux-heat bolt) on the per-thermostat table.
+  - Animated equipment indicators on the per-thermostat table.
 
   - Dark mode with sun/moon toggle, respects system preference.
 
-  - Configurable display timezone — server runs in UTC but the UI
-    boundaries (today/week/etc) and rendered times can be in any IANA zone.
+  - Configurable display timezone.
 
-  - First-run setup page collects your SmartBuildings API credentials
-    (obtain from Ecobee SB support — these are separate from your portal
-    login). Stored locally in SQLite, never sent anywhere except api.sb.ecobee.com.
+  - First-run setup collects your SmartBuildings API credentials
+    (obtain from Ecobee SB support — different from your portal login).
+    Stored locally in SQLite, never sent anywhere except api.sb.ecobee.com.
 
 releaseNotes: >-
-  v0.2.0 — first Umbrel release. Includes in-app setup flow so
-  SmartBuildings API credentials can be configured without editing
-  environment variables.
+  v0.2.0 — first Umbrel release. Includes in-app setup flow so credentials
+  can be configured without editing environment variables.
 
 developer: rvt-nick
 website: https://github.com/rvt-nick/ecobee-dashboard
 dependencies: []
 repo: https://github.com/rvt-nick/ecobee-dashboard
 support: https://github.com/rvt-nick/ecobee-dashboard/issues
-port: 3000
-gallery: []
+submitter: rvt-nick
+submission: https://github.com/rvt-nick/ecobee-umbrel-store
+gallery:
+  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
+  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
+  - https://raw.githubusercontent.com/rvt-nick/ecobee-umbrel-store/main/ecobee-dashboard/icon.svg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-submitter: rvt-nick
-submission: https://github.com/rvt-nick/ecobee-umbrel-store
